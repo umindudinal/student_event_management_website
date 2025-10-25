@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+   <meta charset="UTF-8">
+   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.1/css/all.min.css">
+   <link rel="stylesheet" href="style.css">
+   <title>Login and Registration</title>
+</head>
+<body>
+   <div class="wrapper">
+      <div class="form_container">
+
+         <!-- colse button -->
+         <div class="close_btn">
+            <a href="index.html"><i class="fa-solid fa-xmark"></i></a>
+         </div>
+         <!-- close button -->
+
+         <!-- login form -->
+         <div class="form_box login">
+            <form action="#">
+               <h1>LogIn</h1>
+               <div class="input_box">
+                  <input type="text" placeholder="Username" required>
+                  <i class="fa-solid fa-user"></i>
+               </div>
+               <div class="input_box">
+                  <input type="password" placeholder="Password" required>
+                  <i class="fa-solid fa-lock"></i>
+               </div>
+               <div class="forgot_link">
+                  <a href="#">Forgot Password?</a>
+               </div>
+               <button type="submit" class="btn">LogIn</button>
+               <hr>
+               <p>Or login with Social Platforms</p>
+               <div class="social_icons">
+                  <a href="#"><i class="fa-brands fa-google"></i></a>
+                  <a href="#"><i class="fa-brands fa-facebook-f"></i></a>
+                  <a href="#"><i class="fa-brands fa-github"></i></a>
+                  <a href="#"><i class="fa-brands fa-linkedin-in"></i></a>
+               </div>
+            </form>
+         </div>
+         <!-- login form -->
+
+         <!-- registration form -->
+         <div class="form_box register">
+            <form action="#">
+               <h1>Registration</h1>
+               <div class="input_box">
+                  <input type="text" placeholder="Username" required>
+                  <i class="fa-solid fa-user"></i>
+               </div>
+               <div class="input_box">
+                  <input type="email" placeholder="Email" required>
+                  <i class="fa-solid fa-envelope"></i>
+               </div>
+               <div class="input_box">
+                  <input type="password" placeholder="Password" required>
+                  <i class="fa-solid fa-lock"></i>
+               </div>
+               <button type="submit" class="btn">Register</button>
+               <hr>
+               <p>Or register with Social Platforms</p>
+               <div class="social_icons">
+                  <a href="#"><i class="fa-brands fa-google"></i></a>
+                  <a href="#"><i class="fa-brands fa-facebook-f"></i></a>
+                  <a href="#"><i class="fa-brands fa-github"></i></a>
+                  <a href="#"><i class="fa-brands fa-linkedin-in"></i></a>
+               </div>
+            </form>
+         </div>
+         <!-- registration form -->
+
+         <!-- toggle section -->
+         <div class="toggle_box">
+            <div class="toggle_panel toggle_left">
+               <h1>Hello Welcome !</h1>
+               <div class="image">
+                  <img src="https://itum.mrt.ac.lk/sites/default/files/MicrosoftTeams-image.png" alt="">
+               </div>
+               <p>I don't have an account</p>
+               <button class="btn register_btn">Register</button>
+            </div>
+
+            <div class="toggle_panel toggle_right">
+               <h1>Hello Welcome !</h1>
+               <div class="image">
+                  <img src="https://itum.mrt.ac.lk/sites/default/files/MicrosoftTeams-image.png" alt="">
+               </div>
+               <p>Already have an account?</p>
+               <button class="btn login_btn">Login</button>
+            </div>
+         </div>
+         <!-- toggle section -->
+
+      </div>
+   </div>
+   
+
+
+   <script src="script.js"></script>
+</body>
+</html>
